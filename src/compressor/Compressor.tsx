@@ -25,7 +25,7 @@ const DEFAULT_PARAMS: ICompressorParams = {
   knee: 0,
   ratio: 1,
   attack: 0.003,
-  release: 0.25,
+  release: 0.01,
 };
 
 export const Compressor: FC<ICompressor> = ({
